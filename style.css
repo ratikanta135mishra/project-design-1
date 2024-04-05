@@ -1,0 +1,129 @@
+*{margin: 0;
+padding:0 ;
+box-sizing: border-box;
+overflow: hidden;}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+li{
+    list-style: none;
+    cursor:pointer;
+}
+a{
+    text-decoration:none;
+}
+button{
+    background-color:cadetblue;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white; 
+    border-radius: 5px;
+    font-weight: 700;
+     width: fit-content;  
+}
+button:hover{
+    background-color: white;
+    color: cadetblue;
+    border: 1px solid black;
+}  
+header{
+    padding: 15px 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+} 
+div.logo{
+    font-weight: 700;
+    font-size: 25px;
+} 
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+} 
+li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search-field{
+     display: flex; 
+     gap: 30px;
+
+}
+input{
+     padding: 4px 10px; 
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.left-section{
+     width: 60%;
+     padding: 0 8%; 
+
+}
+h1{
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+h1 span{
+    color:rgb(18,155,155);
+    font-weight: 900;
+    background-color: #dfdfe0;
+    padding: 0 15px;
+}
+p{
+    font-weight: 500;
+    font-size: 16px;
+}
+p span{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(18,155,155);
+}
+.right-section{
+     display: flex; 
+     flex-direction: column;
+     width: 40%;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+}
+.chat-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+footer{
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+i:hover{
+    cursor: pointer;
+}
